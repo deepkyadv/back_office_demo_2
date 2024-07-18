@@ -58,6 +58,8 @@
 import React, { useState, useEffect } from "react";
 import { db } from "../firebase";
 import { collection, query, onSnapshot } from "firebase/firestore";
+import "./Users.css";
+
 
 const Users = () => {
   const [users, setUsers] = useState([]);
